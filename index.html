@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rewear. | Local Upcycling Clothing Brand</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#top">rewear.</a>
+
+    <input class="visually-hidden" type="checkbox" id="menu-toggle" aria-label="Toggle menu">
+    <label class="burger" for="menu-toggle" aria-hidden="true">☰</label>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#philosophy">Brand Philosophy</a></li>
+        <li><a href="#process">Upcycling Process</a></li>
+        <li><a href="#stores">Stores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="lookbook">
+      <h1>Unique Oversized Clothing from Recycled Materials</h1>
+      <p>New collection. Every piece is made from clothes that were already loved.</p>
+      <a class="cta" href="#collections">View Lookbook</a>
+    </section>
+
+    <section class="catalog" id="collections">
+      <h2>Collections</h2>
+
+      <article class="card">
+        <img src="images/item1.jpg" alt="Oversized patchwork denim jacket">
+        <h3>Patchwork Denim Jacket</h3>
+        <p class="price">$85</p>
+        <ul>
+          <li>Size: M – XL (oversized fit)</li>
+          <li>Material: 100% recycled denim</li>
+        </ul>
+        <button type="button">Buy</button>
+      </article>
+
+      <article class="card">
+        <img src="images/item2.jpg" alt="Oversized knit sweater">
+        <h3>Reknit Oversized Sweater</h3>
+        <p class="price">$60</p>
+        <ul>
+          <li>Size: S – L</li>
+          <li>Material: 70% recycled wool, 30% organic cotton</li>
+        </ul>
+        <button type="button">Buy</button>
+      </article>
+
+      <article class="card">
+        <img src="images/item3.jpg" alt="Wide patchwork trousers">
+        <h3>Wide-Leg Patchwork Trousers</h3>
+        <p class="price">$70</p>
+        <ul>
+          <li>Size: S – XL</li>
+          <li>Material: 85% reclaimed cotton, 15% recycled polyester</li>
+        </ul>
+        <button type="button">Buy</button>
+      </article>
+
+      <article class="card">
+        <img src="images/item4.jpg" alt="Oversized shirt from old shirts">
+        <h3>Frankenshirt</h3>
+        <p class="price">$55</p>
+        <ul>
+          <li>Size: M – XXL</li>
+          <li>Material: 100% reclaimed cotton shirts</li>
+        </ul>
+        <button type="button">Buy</button>
+      </article>
+    </section>
+
+    <section class="info" id="philosophy">
+      <h2>Brand Philosophy</h2>
+      <p>We believe the most sustainable garment is the one that already exists. We give old clothes a second life instead of producing new ones.</p>
+    </section>
+
+    <section class="info" id="process">
+      <h2>Upcycling Process</h2>
+      <ol>
+        <li>Collect unwanted clothes from the community.</li>
+        <li>Sort and wash by fabric type.</li>
+        <li>Deconstruct and redesign into new patterns.</li>
+        <li>Sew, quality-check, and ship.</li>
+      </ol>
+    </section>
+
+    <section class="info" id="stores">
+      <h2>Stores</h2>
+      <ul>
+        <li>City Center Studio, 10:00 – 20:00</li>
+        <li>Riverside Market, weekends only</li>
+        <li>Online, worldwide delivery</li>
+      </ul>
+    </section>
+
+    <section class="recycle" id="recycle">
+      <h2>Give Your Old Clothes a New Life</h2>
+      <p>Send us raw materials for recycling. Fill in the form and we will contact you.</p>
+
+      <form action="#" method="post">
+        <label for="spec">Item Specification
+          <textarea id="spec" name="spec" rows="4" required minlength="10"
+            placeholder="e.g. 3 cotton shirts, 2 denim jeans, good condition"></textarea>
+        </label>
+
+        <label for="address">Shipping Address
+          <input type="text" id="address" name="address" required minlength="8"
+            placeholder="City, street, building">
+        </label>
+
+        <label for="email">Email
+          <input type="email" id="email" name="email" required
+            placeholder="name@example.com">
+        </label>
+
+        <label for="phone">Contact Phone
+          <input type="tel" id="phone" name="phone" required
+            pattern="[0-9+\s\-()]{10,18}" placeholder="+7 700 000 00 00">
+        </label>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <section>
+      <h2>Eco Manifesto</h2>
+      <p>Fashion is one of the most polluting industries. We choose to reuse, repair, and reimagine. Less waste, more stories.</p>
+    </section>
+
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#process">Upcycling Process</a></li>
+        <li><a href="#recycle">Recycle With Us</a></li>
+        <li><a href="#stores">Stores</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Social networks">
+      <ul>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://t.me" target="_blank" rel="noopener">Telegram</a></li>
+        <li><a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a></li>
+      </ul>
+    </nav>
+
+    <input class="visually-hidden" type="checkbox" id="theme-toggle">
+    <label class="theme-switch" for="theme-toggle">◐ Switch theme</label>
+
+    <p class="legal">© 2026 rewear. All rights reserved. Privacy Policy · Terms of Use</p>
+  </footer>
+
+</body>
+</html>
